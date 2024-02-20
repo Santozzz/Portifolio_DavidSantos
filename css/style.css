@@ -142,6 +142,9 @@ body{
 }
 
 /* Sobre mim */
+#about-me{
+    margin-bottom: 5%;
+}
 .card{
     display: flex;
     width: 100%;
@@ -180,6 +183,10 @@ body{
 }
 
 /* Portifólio */
+#Portfolio{
+    margin-bottom: 10%;
+}
+
 .container-port{
     display: flex;
     flex-direction: column;
@@ -205,13 +212,18 @@ body{
 }
 
 .site{
-    width: 320px;
-    height: 250px;
-    border-radius: 10px;
+    width: 280px;
+    height: 190px;
+    border-radius: 5px;
     background-color: #223275;
     transition: .5s ease;
     cursor: pointer;
-    z-index: 1;
+}
+
+.site img{
+    width: 280px;
+    height: 190px;
+    border-radius: 5px;
 }
 
 .site:hover{
@@ -226,7 +238,6 @@ body{
 }
 
 #contato h1{
-    margin-top: 15%;
     text-transform: uppercase;
     color: #223275;
     font-size: 25px;
